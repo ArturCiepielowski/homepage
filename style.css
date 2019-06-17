@@ -1,0 +1,48 @@
+body {
+    /*background-color: #fefefe;*/
+    background-color: rgb(71, 117, 179);
+    background-image: linear-gradient(rgb(71, 117, 179), rgb(153, 62, 172));
+    Min-height: 100vh;
+}
+
+.headerMain {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sectionHeader {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:link{
+
+    color:yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+
+}
+
+a:visited{
+
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
