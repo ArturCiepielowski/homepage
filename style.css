@@ -5,25 +5,25 @@ body {
     Min-height: 100vh;
 }
 
-.headerMain {
+.headerMain__text {
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.sectionHeader {
+.sectionHeader__text {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a:link{
@@ -44,5 +44,12 @@ a:visited{
 
 a:hover {
     color: red;
+}
+
+.webPage{
+
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
 }
 
