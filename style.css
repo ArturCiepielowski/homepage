@@ -53,3 +53,20 @@ a:hover {
     margin: 32px auto;
 }
 
+.navigation{
+
+    position: fixed;
+    width: 100%;
+    top: 10px;
+    left: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+
+
+
+}
+
+.navigation__mainPage{
+
+    margin-right: 10px;
+}
