@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+
+
 body {
     /*background-color: #fefefe;*/
     background-color: rgb(71, 117, 179);
@@ -9,6 +19,7 @@ body {
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
 }
 
 .sectionHeader__text {
@@ -16,12 +27,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
+
+
+.article__date{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+.paragraph, .article__paragraph, .paragraph__test--js{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
