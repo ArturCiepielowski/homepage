@@ -58,32 +58,53 @@ a:hover {
 .navigation {
     position: fixed;
     width: 100%;
-    
     top: 0px;
     left: 0px;
     box-sizing: border-box;
-    
     background-color: #7D82B8
-
-    
-
 }
 
 .navigation__mainPage {
     margin-right: 10px;
 }
 
-.navigation__list{
-
+.navigation__list {
     list-style: none;
-    padding:0;
+    padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.navigation__iteam{
+.navigation__iteam {
+    display: inline;
+    padding: 5px;
+}
 
-display: inline;
-padding:5px;
+.Diary__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 320px 320px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
 
+.DiaryWeek__Description {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.Diary__img{
+
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 640px){
+
+    .Diary__grid{
+        grid-template-columns: 1fr;
+
+    }
 }
