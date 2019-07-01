@@ -104,6 +104,15 @@ a:hover {
     width: 50%;
 }
 
+@media (min-width: 641px) {
+    
+    .navigation__switcher{
+
+        display: none;
+    }
+   
+}
+
 @media (max-width: 640px) {
     .Diary__grid {
         grid-template-columns: 1fr;
@@ -117,4 +126,26 @@ a:hover {
         width: 100%;
         height: auto;
         
+    }
+
+    .navigation__list {
+        flex-direction: column;
+        display: none;
+    }
+
+    .navigation__list--visible{
+
+        display: flex;
+    }
+
+    .navigation__switcher{
+
+        border: none;
+        
+        position: absolute;
+        right:16px;
+        top:16px;
+
+
+    }
 }
