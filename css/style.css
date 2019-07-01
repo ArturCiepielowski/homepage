@@ -95,16 +95,26 @@ a:hover {
     justify-content: center;
 }
 
-.Diary__img{
-
+.Diary__img {
     display: flex;
     justify-content: center;
 }
 
-@media (max-width: 640px){
+.imageW1 {
+    width: 50%;
+}
 
-    .Diary__grid{
+@media (max-width: 640px) {
+    .Diary__grid {
         grid-template-columns: 1fr;
-
     }
+    .imageW {
+        width: 320px;
+        height: 200px;
+        
+    }
+    .imageW img {
+        width: 100%;
+        height: auto;
+        
 }
